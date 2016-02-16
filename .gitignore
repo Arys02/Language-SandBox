@@ -1,7 +1,13 @@
 # Compiled Object files, Static and Dynamic libs (Shared Objects)
 *.o
 *.a
+*.obj
+
+#lib
 *.so
+*.dll
+*.la
+*.a
 
 # Folders
 _obj
@@ -25,6 +31,18 @@ _testmain.go
 
 #rust
 *.rlib
-*.dll
 /target/
 Cargo.lock
+
+#vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+Session.vim
+.netrwist
+
+#c++
+*.slo
+*.lo
+*.gch
+*.pch
+*.dylib
