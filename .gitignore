@@ -2,6 +2,7 @@
 *.o
 *.a
 *.obj
+*.out
 
 #lib
 *.so
